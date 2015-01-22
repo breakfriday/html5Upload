@@ -7,9 +7,11 @@ define(function(require){
 
     var d3TestCtrl=require("controller/module_ctrls/d3Test")
     var objectAsDataCtrl=require("controller/module_ctrls/object-as-data")
+    var html5Load1Ctrl=require("controller/module_ctrls/html5Load1Ctrl")
     webAppCtrl.controller({
         d3TestCtrl:d3TestCtrl,
-        objectAsDataCtrl:objectAsDataCtrl
+        objectAsDataCtrl:objectAsDataCtrl,
+        html5Load1Ctrl:html5Load1Ctrl
 
     })
     return webAppCtrl
